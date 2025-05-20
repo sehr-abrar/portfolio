@@ -18,7 +18,7 @@ const Experience = () => {
       title: "AI/ML Fellow",
       company: "Break Through Tech",
       companyUrl: "https://www.breakthroughtech.org/",
-      date: "May 2025 - Present",
+      date: "Apr 2025 - Present",
       description:
         "The Break Through Tech AI Program at Cornell Tech trains underrepresented students in data science, AI, and machine learning through technical coursework and industry projects.",
       achievements: ["Stay tuned for more updates!"],
