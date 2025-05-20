@@ -54,6 +54,14 @@ const Projects = () => {
       tags: ["Figma", "HTML", "CSS"],
       liveLink: "https://devpost.com/software/pigeonbot",
       githubLink: ""
+    },
+    {
+      title: "Unadat Internship Portfolio",
+      description: "Designed user-centric, responsive mockups and layouts for Unadat’s new features, several of which are now live.",
+      image: "unadat.png",
+      tags: ["Figma", "HTML", "CSS"],
+      liveLink: "https://www.figma.com/design/nR72qlzZvnWgaVUdYmbONr/Sehr-Abrar-s-Unadat-Internship-Portfolio",
+      githubLink: ""
     }
   ];
 

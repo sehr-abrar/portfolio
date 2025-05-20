@@ -1,4 +1,3 @@
-
 import Section from "./Section";
 import { Award } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
@@ -13,18 +12,21 @@ const Activities = () => {
         {
           title: "Campus Leader",
           organization: "Notion",
+          link: "https://www.notion.com/",
           date: "Aug 2024 - May 2025",
           description: "Promote Notion adoption at CCNY by leading workshops, events, and demos. Partner with student clubs to increase Notion’s use for project and event management on campus."
         },
         {
           title: "President",
           organization: "Association for Computing Machinery at CCNY",
+          link: "https://beaverscode.club/",
           date: "May 2024 - May 2025",
           description: "Lead 20+ volunteers and coordinate workshops, speaker events, and projects with 40+ attendees. Organized AI/ML, programming, data science, web design, cybersecurity, and UI/UX opportunities for 500+ members. Fostered collaboration and growth through partnerships and inclusive community building."
         },
         {
           title: "Vice President",
           organization: "Association for Computing Machinery at CCNY",
+          link: "https://beaverscode.club/",
           date: "Aug 2023 - May 2024",
           description: "Managed 10+ volunteers and logistics for CS workshops and events supporting 300+ members. Boosted membership and engagement through strategic outreach. Led a hands-on UI/UX design workshop to develop practical member skills."
         },
@@ -36,37 +38,23 @@ const Activities = () => {
         {
           title: "Peer Mentor",
           organization: "CodePath",
+          link: "https://www.codepath.org/",
           date: "May 2025 - Present",
           description: "Support and guide fellow students through CodePath’s computer science curriculum by hosting study sessions and offering personalized assistance."
         },
         {
           title: "CHiMP Mentor",
           organization: "City Honors Illustrious Mentor Program (CHiMP)",
+          link: "https://www.instagram.com/ccnychimp/?locale=zh-TW&hl=am-et",
           date: "Aug 2023 - Present",
           description: "Mentor CCNY Macaulay and Honors students, providing academic guidance and personal support to help them succeed."
         },
         {
           title: "Academic Coach",
           organization: "UPchieve",
+          link: "https://upchieve.org/",
           date: "Jun 2023 - Aug 2024",
           description: "Virtually coached high school students in algebra, geometry, reading, writing, and college applications. Provided personalized feedback to improve grades and essays, fostering academic and personal growth."
-        }
-      ]
-    },
-    {
-      category: "Awards",
-      items: [
-        {
-          title: "Dean’s List",
-          organization: "City College of New York",
-          date: "2022 - Present",
-          description: "Consistently achieved Dean’s List recognition every semester with a GPA above 3.2."
-        },
-        {
-          title: "Macaulay Honors College Scholarship",
-          organization: "Macaulay Honors College",
-          date: "2022 - Present",
-          description: "Merit-based scholarship awarded for academic excellence and community engagement."
         }
       ]
     }
@@ -100,7 +88,15 @@ const Activities = () => {
                           <Award className="text-green-600" size={24} />
                         </div>
                         <span className="font-medium text-gray-700">{item.date}</span>
-                        <span className="text-gray-600 mt-2">{item.organization}</span>
+                        <a 
+                          href={item.link || "#"} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          className="mt-2 text-gray-600 no-underline hover:text-green-600 hover:font-medium transition-colors duration-200"
+                        >
+                          {item.organization}
+                        </a>
+
                       </div>
                       
                       {/* Right Side - Details */}

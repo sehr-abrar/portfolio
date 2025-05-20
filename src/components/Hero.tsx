@@ -41,7 +41,7 @@ const Hero = () => {
         
         <Button 
           onClick={scrollToAbout}
-          className="rounded-full px-8 py-6 bg-white hover:bg-gray-50 text-gray-800 border border-gray-200 shadow-md flex items-center gap-2 group"
+          className="mx-auto rounded-full px-8 py-6 bg-white hover:bg-gray-50 text-gray-800 border border-gray-200 shadow-md flex items-center gap-2 group"
         >
           <span>Explore My Work</span>
           <ArrowDown className="transition-transform group-hover:translate-y-1" size={18} />
