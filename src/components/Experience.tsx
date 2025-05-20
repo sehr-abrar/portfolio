@@ -15,7 +15,7 @@ const Experience = () => {
       technologies: ["Python", "Robotics"],
     },
     {
-      title: "AI/ML Fellow @ Cornell Tech",
+      title: "AI/ML Fellow",
       company: "Break Through Tech",
       companyUrl: "https://www.breakthroughtech.org/",
       date: "May 2025 - Present",
