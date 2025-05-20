@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: "SmartBid",
       description: "Mini e-bidding platform using JavaScript, Supabase, and Django. Designed UI/UX in Figma and built frontend with HTML and CSS.",
-      image: "=smartbid.png",
+      image: "smartbid.png",
       tags: ["JavaScript", "Python", "Django", "Figma"],
       liveLink: "",
       githubLink: "https://github.com/saanavig/SmartBid"
