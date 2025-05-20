@@ -48,10 +48,7 @@ const Hero = () => {
         </Button>
       </div>
       
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce-light">
-        <ArrowDown className="text-gray-400" size={24} />
-      </div>
+
     </div>
   );
 };

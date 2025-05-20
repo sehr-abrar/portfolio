@@ -10,12 +10,14 @@ const About = () => {
         <div className="w-full md:w-1/3 flex justify-center">
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-pastel-purple to-pastel-pink rounded-full blur-md opacity-70 scale-110"></div>
-            <Avatar className="w-64 h-64 border-4 border-white relative">
-              <AvatarImage src="/profile-img.png" alt="Sehr Abrar" />
-              <AvatarFallback className="bg-white text-gray-400">
-                <User size={64} />
-              </AvatarFallback>
-            </Avatar>
+            <div className="w-64 h-auto relative z-10 border-4 border-white rounded-2xl overflow-hidden">
+              <img
+                src="/profile-img.png"
+                alt="Sehr Abrar"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+
           </div>
         </div>
         
