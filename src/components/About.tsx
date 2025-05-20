@@ -11,7 +11,7 @@ const About = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-pastel-purple to-pastel-pink rounded-full blur-md opacity-70 scale-110"></div>
             <Avatar className="w-64 h-64 border-4 border-white relative">
-              <AvatarImage src="/public/profile-img.png" alt="Sehr Abrar" />
+              <AvatarImage src="/portfolio/public/profile-img.png" alt="Sehr Abrar" />
               <AvatarFallback className="bg-white text-gray-400">
                 <User size={64} />
               </AvatarFallback>
