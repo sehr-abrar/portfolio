@@ -65,7 +65,6 @@ const Contact = () => {
       
       <div className="mt-16 text-center text-gray-500 text-sm">
         <p>© {new Date().getFullYear()} Sehr Abrar. All rights reserved.</p>
-        <p className="mt-1">Designed & Built with ❤️</p>
       </div>
     </Section>
   );

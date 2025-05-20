@@ -61,15 +61,14 @@ const Navbar = () => {
   return (
     <nav 
       className={cn(
-        "fixed top-0 left-0 w-full z-50 transition-all duration-300 py-3",
+        "fixed top-1 left-0 w-full z-50 transition-all duration-300 py-3",
         scrolled ? "bg-white/80 backdrop-blur-md shadow-sm" : "bg-transparent"
       )}
     >
       <div className="container max-w-6xl mx-auto px-4 flex justify-between items-center">
-        <a href="#" className="text-xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
-          Portfolio
+        <a href="#" className="text-xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          Sehr Abrar's Portfolio
         </a>
-
         {/* Desktop Navigation */}
         {!isMobile && (
           <div className="flex items-center space-x-1 bg-white/30 backdrop-blur-sm p-1 rounded-full shadow-sm">
@@ -79,9 +78,13 @@ const Navbar = () => {
                 href={link.href}
                 onClick={(e) => handleLinkClick(e, link.href)}
                 className={cn(
-                  "nav-link text-sm",
-                  activeSection === link.href && "active"
+                  "nav-link text-sm px-3 py-1 transition-colors duration-300",
+                  activeSection === link.href
+                    ? "text-blue-900 font-semibold"
+                    : "text-gray-700 hover:text-blue-700"
                 )}
+
+
               >
                 {link.name}
               </a>

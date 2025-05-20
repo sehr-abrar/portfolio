@@ -7,6 +7,24 @@ const Experience = () => {
   // Sample experience data - replace with your actual information
   const experienceItems = [
     {
+      "title": "Research Lab Intern",
+      "company": "Cornell Tech",
+      "date": "May 2025 - Aug 2025",
+      "description": "Collaborating with Cornell Tech faculty on public service robotics projects, utilizing AI and Python to develop innovative solutions for urban challenges.",
+      "achievements": ["Stay tuned for more updates!"],
+      "technologies": ["Python", "Robotics"]
+    },
+    {
+      "title": "AI/ML Fellow @ Cornell Tech",
+      "company": "Break Through Tech",
+      "date": "May 2025 - Present",
+      "description": "The Break Through Tech AI Program at Cornell Tech trains underrepresented students in data science, AI, and machine learning through technical coursework and industry projects.",
+      "achievements": [
+        "Stay tuned for more updates!"
+      ],
+      "technologies": ["Python", "TBD"]
+    },
+    {
       "title": "iOS Engineer Fellow",
       "company": "CodePath",
       "date": "May 2025 - Present",

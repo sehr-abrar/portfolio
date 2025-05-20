@@ -26,13 +26,13 @@ const Hero = () => {
       {/* Content */}
       <div className="text-center relative z-10 max-w-3xl">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
-            Hi, I'm Sehr Abrar
+          <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            Hi, I'm Sehr
           </span>
         </h1>
         
         <p className="text-2xl md:text-3xl mb-8 text-gray-700">
-          <TypewriterText texts={["Software Developer", "UI/UX Designer", "Creative Thinker"]} />
+          <TypewriterText texts={["Software Developer", "UI/UX Designer", "Creative Thinker", "AI Enthusiast", "Cybersecurity Curious"]} />
         </p>
         
         <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto text-gray-600">

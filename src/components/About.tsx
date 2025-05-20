@@ -21,7 +21,7 @@ const About = () => {
         
         <div className="w-full md:w-2/3">
           <p className="text-lg mb-4 text-gray-700">
-            Hi, I’m Sehr Abrar, a junior at Macaulay Honors College studying Computer Science at CUNY CCNY at the Grove School of Engineering. I’m passionate about UI/UX, programming, AI/ML, cybersecurity, quantum computing, and iOS development.
+            Hi, I’m Sehr Abrar, a rising senior at Macaulay Honors College studying Computer Science at CUNYL The City College of New York at the Grove School of Engineering. I’m passionate about UI/UX, programming, AI/ML, cybersecurity, quantum computing, and iOS development.
           </p>
 
           <p className="text-lg mb-4 text-gray-700">

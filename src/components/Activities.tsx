@@ -13,7 +13,7 @@ const Activities = () => {
         {
           title: "Campus Leader",
           organization: "Notion",
-          date: "Aug 2024 - Present",
+          date: "Aug 2024 - May 2025",
           description: "Promote Notion adoption at CCNY by leading workshops, events, and demos. Partner with student clubs to increase Notion’s use for project and event management on campus."
         },
         {
