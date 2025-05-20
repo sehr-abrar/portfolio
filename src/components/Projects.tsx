@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: "GlobeTrail",
       description: "Designed GlobeTrail, a travel app prototype for personalized and collaborative trip planning, with a partner in a 40-hour UI/UX Designathon.",
-      image: "public/globetrail.png",
+      image: "globetrail.png",
       tags: ["Figma", "UI/UX Research"],
       liveLink: "https://devpost.com/software/globetrail",
       githubLink: "https://www.figma.com/proto/PjkFaG71qglHS5jjvfq1S0/Catalyst-2025---GlobeTrail?node-id=72-919&p=f&t=YTT58lx7QDo7gb0V-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=72%3A919&show-proto-sidebar=1"
@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: "CNN Website Redesign",
       description: "Worked with 3 teammates on CNN site redesign for accessibility in CodePath x AmazonNext, creating Figma mockups to improve inclusivity.",
-      image: "public/cnn.png",
+      image: "cnn.png",
       tags: ["Figma", "UI/UX Research"],
       liveLink: "https://www.figma.com/proto/VVHWuTWgRzlcptOV8LOoE0/CNN-Website-Redesign?node-id=54-132&p=f&t=WrGWcGGMBnggWiua-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
       githubLink: ""
@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: "SmartBid",
       description: "Mini e-bidding platform using JavaScript, Supabase, and Django. Designed UI/UX in Figma and built frontend with HTML and CSS.",
-      image: "public/smartbid.png",
+      image: "=smartbid.png",
       tags: ["JavaScript", "Python", "Django", "Figma"],
       liveLink: "",
       githubLink: "https://github.com/saanavig/SmartBid"
@@ -34,7 +34,7 @@ const Projects = () => {
     {
       title: "5-Day UI Challenge",
       description: "Completed the first 5 Daily UI Design Challenge prompts by creating unique and creative UI designs based on each prompt.",
-      image: "public/dayui.png",
+      image: "dayui.png",
       tags: ["Figma", "UI/UX Research"],
       liveLink: "https://www.figma.com/proto/DKiohnCbL6fcYVNMajrxoR/5-Day-UI-Challenge?node-id=1-3&p=f&t=yTWzRcZhQIhWxAlA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
       githubLink: ""
@@ -42,7 +42,7 @@ const Projects = () => {
     {
       title: "Rock Paper Scissors Lizard Spock",
       description: "Graphical Java Swing version of the classic game featuring AI opponent, leaderboard comparisons, and image-based move display.",
-      image: "public/rpsls.png",
+      image: "rpsls.png",
       tags: ["Java", "Java Swing", "GUI Development", "Eclipse"],
       liveLink: "",
       githubLink: "https://github.com/sehr-abrar/RockPaperScissorsLizardSpock"
@@ -50,7 +50,7 @@ const Projects = () => {
     {
       title: "PigeonBot",
       description: "Co-developed PigeonBot, a NYC navigation chatbot built in a 3-day hackathon; designed and coded the HTML/CSS UI for a smooth user experience.",
-      image: "public/pigeon-bot.png",
+      image: "pigeon-bot.png",
       tags: ["Figma", "HTML", "CSS"],
       liveLink: "https://devpost.com/software/pigeonbot",
       githubLink: ""
