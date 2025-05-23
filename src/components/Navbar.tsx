@@ -80,7 +80,7 @@ const Navbar = () => {
                 className={cn(
                   "nav-link text-sm px-3 py-1 transition-colors duration-300",
                   activeSection === link.href
-                    ? "text-blue-900 font-semibold"
+                    ? "text-blue-700 font-semibold"
                     : "text-gray-700 hover:text-blue-700"
                 )}
 

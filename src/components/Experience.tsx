@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const Experience = () => {
   const experienceItems = [
     {
-      title: "Research Lab Intern",
+      title: "Research Intern",
       company: "Cornell Tech",
       companyUrl: "https://tech.cornell.edu/",
       date: "May 2025 - Present",

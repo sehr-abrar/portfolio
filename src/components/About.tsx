@@ -10,7 +10,7 @@ const About = () => {
         <div className="w-full md:w-1/3 flex justify-center">
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-pastel-purple to-pastel-pink rounded-full blur-md opacity-70 scale-110"></div>
-            <div className="w-64 h-auto relative z-10 border-4 border-white rounded-2xl overflow-hidden">
+            <div className="w-65 h-auto relative z-10 border-4 border-white rounded-2xl overflow-hidden">
               <img
                 src="/profile-img.png"
                 alt="Sehr Abrar"
@@ -23,15 +23,16 @@ const About = () => {
         
         <div className="w-full md:w-2/3">
           <p className="text-lg mb-4 text-gray-700">
-            Hi, I’m Sehr Abrar, a rising senior at Macaulay Honors College studying Computer Science at CUNYL The City College of New York at the Grove School of Engineering. I’m passionate about UI/UX, programming, AI/ML, cybersecurity, quantum computing, and iOS development.
+            Hi, I’m Sehr Abrar, a rising senior at <strong>Macaulay Honors College</strong> studying Computer Science at CUNY: The City College of New York at the Grove School of Engineering. I'm drawn to the intersection of <strong>user experience design</strong>, <strong>artificial intelligence</strong>, <strong>machine learning</strong>, and <strong>cybersecurity</strong>; fields where <strong>creativity meets complexity</strong>. I love crafting thoughtful, impactful solutions that not only look great but also solve real-world problems that turn abstract ideas into <strong>intuitive, human-centered experiences</strong>.
           </p>
 
           <p className="text-lg mb-4 text-gray-700">
-            As President of ACM @ CCNY and a Notion Campus Leader, I lead teams, organize events, and build communities that connect 500+ members. I also design full-stack apps using React, Django, and Figma.
+            As the former <strong>President of ACM @ CCNY</strong> and a <strong>Notion Campus Leader</strong>, I led teams, organized events, and cultivated communities that connect <strong>500+ members</strong>. I’m passionate about building spaces where people in tech feel <strong>seen, supported, and inspired</strong> — because at its best, tech should bring people closer together.
           </p>
 
+
           <p className="text-lg mb-6 text-gray-700">
-            Outside of tech, I love exploring new ideas and projects that challenge me to grow. Feel free to reach out—I’m always excited to collaborate or chat!
+            Feel free to reach out — I’m always up for a good conversation, new ideas, or building something meaningful together.
           </p>
 
           
