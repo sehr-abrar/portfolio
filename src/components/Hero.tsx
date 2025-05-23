@@ -39,13 +39,26 @@ const Hero = () => {
           A curious coder and creative thinker passionate about tech, design, and growth
         </p>
         
-        <Button 
-          onClick={scrollToAbout}
-          className="mx-auto rounded-full px-8 py-6 bg-white hover:bg-gray-50 text-gray-800 border border-gray-200 shadow-md flex items-center gap-2 group"
-        >
-          <span>Explore My Work</span>
-          <ArrowDown className="transition-transform group-hover:translate-y-1" size={18} />
-        </Button>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <Button 
+            onClick={scrollToAbout}
+            className="rounded-full px-8 py-6 bg-white hover:bg-gray-50 text-gray-800 border border-gray-200 shadow-md flex items-center gap-2 group"
+          >
+            <span>Explore My Work</span>
+            <ArrowDown className="transition-transform group-hover:translate-y-1" size={18} />
+          </Button>
+
+          <a 
+            href="https://drive.google.com/file/d/18FPVS0_k3w9EV8Dqwxp_-h1efuOT1zUw/view?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Button className="rounded-full px-8 py-6 bg-white hover:bg-gray-50 text-gray-800 border border-gray-200 shadow-md">
+              Check Out My Resume
+            </Button>
+          </a>
+        </div>
+
       </div>
       
 
