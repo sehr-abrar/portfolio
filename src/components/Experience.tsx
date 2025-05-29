@@ -5,14 +5,14 @@ import { Card, CardContent } from "@/components/ui/card";
 const Experience = () => {
   const experienceItems = [
     {
-      title: "Research Intern",
+      title: "AI Robotics Research Intern",
       company: "Cornell Tech",
       companyUrl: "https://tech.cornell.edu/",
       date: "May 2025 - Present",
       description:
-        "Collaborating with Cornell Tech faculty on public service robotics projects, utilizing AI and Python to develop innovative solutions for urban challenges.",
+        "Working with Professor Wendy Ju on research exploring public interaction with service robots in New York City, involving hands-on prototyping and debugging of physical robots, conducting field experiments on human-robot interaction, and using LLM-assisted tools to analyze social behavior at scale.",
       achievements: ["Stay tuned for more updates!"],
-      technologies: ["Python", "Robotics"],
+      technologies: ["Python", "AI", "Robotics"],
     },
     {
       title: "AI/ML Fellow",
@@ -20,9 +20,9 @@ const Experience = () => {
       companyUrl: "https://www.breakthroughtech.org/",
       date: "Apr 2025 - Present",
       description:
-        "The Break Through Tech AI Program at Cornell Tech trains underrepresented students in data science, AI, and machine learning through technical coursework and industry projects.",
+        "Selected from over 3,600 applicants for the Break Through Tech AI Program at Cornell Tech, which trains underrepresented students in data science, AI, and machine learning through rigorous technical coursework and hands-on industry projects.",
       achievements: ["Stay tuned for more updates!"],
-      technologies: ["Python", "TBD"],
+      technologies: ["Python"],
     },
     {
       title: "iOS Engineer Fellow",
@@ -30,11 +30,9 @@ const Experience = () => {
       companyUrl: "https://www.codepath.org/",
       date: "May 2025 - Present",
       description:
-        "Selected for a competitive iOS Engineering Fellowship focused on building mobile applications using Swift and Xcode. Collaborating with peers and mentors to develop polished, user-friendly iOS apps.",
+        "Selected for an iOS Engineering Fellowship focused on building mobile applications using Swift and Xcode and collaborates with peers and mentors to develop polished, user-friendly iOS apps.",
       achievements: [
-        "Building iOS apps with modern design principles and best practices",
-        "Participating in weekly code reviews and industry-led workshops",
-        "Strengthening app development skills through hands-on projects",
+        "Stay tuned for more updates!",
       ],
       technologies: ["Swift", "Xcode", "UIKit", "iOS Development"],
     },
