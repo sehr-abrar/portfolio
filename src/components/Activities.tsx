@@ -40,14 +40,14 @@ const Activities = () => {
           organization: "CodePath",
           link: "https://www.codepath.org/",
           date: "May 2025 - Present",
-          description: "Support and guide fellow students through CodePath’s computer science curriculum by hosting study sessions and offering personalized assistance."
+          description: "Provides one-on-one support and regular check-ins to help students succeed in CodePath’s tech curriculums, offering personalized guidance and hosting personal development sessions."
         },
         {
           title: "CHiMP Mentor",
           organization: "City Honors Illustrious Mentor Program (CHiMP)",
           link: "https://www.instagram.com/ccnychimp/?locale=zh-TW&hl=am-et",
           date: "Aug 2023 - Present",
-          description: "Mentor CCNY Macaulay and Honors students, providing academic guidance and personal support to help them succeed."
+          description: "Mentors CCNY Macaulay and Honors students, providing academic guidance and personal support to help them succeed."
         },
         {
           title: "Academic Coach",
